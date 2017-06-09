@@ -6,7 +6,7 @@ import injectTapEventPlugin from "react-tap-event-plugin";
 injectTapEventPlugin();
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import MyAwesomeReactComponent from './MyAwesomeReactComponent';
+import AppTitle from './AppTitle';
 
 class App extends Component {
     constructor(props) {
@@ -16,7 +16,7 @@ class App extends Component {
     render() {
         return (
             <MuiThemeProvider>
-                <MyAwesomeReactComponent />
+                <AppTitle />
             </MuiThemeProvider>
         )
     }
