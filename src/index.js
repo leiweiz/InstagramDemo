@@ -8,6 +8,7 @@ injectTapEventPlugin();
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import AppTitle from './AppTitle';
 import Post from './Post';
+import Navigator from './Navigator';
 
 class App extends Component {
     constructor(props) {
@@ -21,6 +22,7 @@ class App extends Component {
                     <AppTitle />
                     <Post />
                     <Post />
+                    <Navigator />
                 </div>
             </MuiThemeProvider>
         )
